@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0491842A247F8FC4007F2FC8 /* libjmlink-ios-1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04918429247F8FC4007F2FC8 /* libjmlink-ios-1.1.0.a */; };
+		04EA9F33247D254C00DA68BD /* RCTJMLinkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA9F32247D254C00DA68BD /* RCTJMLinkModule.m */; };
+		04EA9F34247D254C00DA68BD /* RCTJMLinkModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04EA9F31247D254C00DA68BD /* RCTJMLinkModule.h */; };
+		04EA9F43247D26D700DA68BD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA9F42247D26D700DA68BD /* libresolv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04EA9F2C247D254C00DA68BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				04EA9F34247D254C00DA68BD /* RCTJMLinkModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04918429247F8FC4007F2FC8 /* libjmlink-ios-1.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjmlink-ios-1.1.0.a"; path = "RCTJMLinkModule/libjmlink-ios-1.1.0.a"; sourceTree = "<group>"; };
+		04EA9F2E247D254C00DA68BD /* libRCTJMLinkModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTJMLinkModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA9F31247D254C00DA68BD /* RCTJMLinkModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTJMLinkModule.h; sourceTree = "<group>"; };
+		04EA9F32247D254C00DA68BD /* RCTJMLinkModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTJMLinkModule.m; sourceTree = "<group>"; };
+		04EA9F42247D26D700DA68BD /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
+		04EA9F46247D280400DA68BD /* MWApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWApi.h; sourceTree = "<group>"; };
+		04EA9F47247D280400DA68BD /* MWApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWApiObject.h; sourceTree = "<group>"; };
+		04EA9F48247D280400DA68BD /* JMLinkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMLinkService.h; sourceTree = "<group>"; };
+		04EA9F49247D280400DA68BD /* MWCampaignConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCampaignConfig.h; sourceTree = "<group>"; };
+		04EA9F4A247D280400DA68BD /* MWFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFloatView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EA9F2B247D254C00DA68BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA9F43247D26D700DA68BD /* libresolv.tbd in Frameworks */,
+				0491842A247F8FC4007F2FC8 /* libjmlink-ios-1.1.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EA9F25247D254C00DA68BD = {
+			isa = PBXGroup;
+			children = (
+				04EA9F30247D254C00DA68BD /* RCTJMLinkModule */,
+				04EA9F2F247D254C00DA68BD /* Products */,
+				04EA9F41247D26D700DA68BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04EA9F2F247D254C00DA68BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EA9F2E247D254C00DA68BD /* libRCTJMLinkModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EA9F30247D254C00DA68BD /* RCTJMLinkModule */ = {
+			isa = PBXGroup;
+			children = (
+				04EA9F48247D280400DA68BD /* JMLinkService.h */,
+				04EA9F46247D280400DA68BD /* MWApi.h */,
+				04EA9F47247D280400DA68BD /* MWApiObject.h */,
+				04EA9F49247D280400DA68BD /* MWCampaignConfig.h */,
+				04EA9F4A247D280400DA68BD /* MWFloatView.h */,
+				04EA9F31247D254C00DA68BD /* RCTJMLinkModule.h */,
+				04EA9F32247D254C00DA68BD /* RCTJMLinkModule.m */,
+			);
+			path = RCTJMLinkModule;
+			sourceTree = "<group>";
+		};
+		04EA9F41247D26D700DA68BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04918429247F8FC4007F2FC8 /* libjmlink-ios-1.1.0.a */,
+				04EA9F42247D26D700DA68BD /* libresolv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EA9F2D247D254C00DA68BD /* RCTJMLinkModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA9F37247D254C00DA68BD /* Build configuration list for PBXNativeTarget "RCTJMLinkModule" */;
+			buildPhases = (
+				04EA9F2A247D254C00DA68BD /* Sources */,
+				04EA9F2B247D254C00DA68BD /* Frameworks */,
+				04EA9F2C247D254C00DA68BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTJMLinkModule;
+			productName = RCTJMLinkModule;
+			productReference = 04EA9F2E247D254C00DA68BD /* libRCTJMLinkModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EA9F26247D254C00DA68BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04EA9F2D247D254C00DA68BD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 04EA9F29247D254C00DA68BD /* Build configuration list for PBXProject "RCTJMLinkModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EA9F25247D254C00DA68BD;
+			productRefGroup = 04EA9F2F247D254C00DA68BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EA9F2D247D254C00DA68BD /* RCTJMLinkModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EA9F2A247D254C00DA68BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA9F33247D254C00DA68BD /* RCTJMLinkModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04EA9F35247D254C00DA68BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EA9F36247D254C00DA68BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EA9F38247D254C00DA68BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RCTJMLinkModule",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EA9F39247D254C00DA68BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RCTJMLinkModule",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EA9F29247D254C00DA68BD /* Build configuration list for PBXProject "RCTJMLinkModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA9F35247D254C00DA68BD /* Debug */,
+				04EA9F36247D254C00DA68BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA9F37247D254C00DA68BD /* Build configuration list for PBXNativeTarget "RCTJMLinkModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA9F38247D254C00DA68BD /* Debug */,
+				04EA9F39247D254C00DA68BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EA9F26247D254C00DA68BD /* Project object */;
+}
