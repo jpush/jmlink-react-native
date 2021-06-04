@@ -2,7 +2,12 @@
 
 ## ChangeLog
 
+### v 1.2.0
+
+极光魔链RN  1.2.4
+
 ### v 1.0.0
+
 极光魔链RN第一版
 
 ## 1. 安装
@@ -103,7 +108,7 @@ pod install
   View controller-based status bar appearance : YES
   ```
 ### 2.2.3 配置
- 
+
 + 配置App的URL Scheme
 
 > iOS系统中App之间是相互隔离的，通过URL Scheme，App之间可以相互调用，并且可以传递参数。
