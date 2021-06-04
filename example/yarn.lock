@@ -3221,9 +3221,9 @@ hermes-engine@~0.4.0:
   integrity sha1-LQKylVlimGQ8TSS4ZofrVU256VA=
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha1-dTm9S8Hg4KiVgVouAmJCCxKFhIg=
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
@@ -4133,6 +4133,11 @@ jetifier@^1.6.2:
   version "1.6.5"
   resolved "https://registry.npm.taobao.org/jetifier/download/jetifier-1.6.5.tgz#ea87324a4230bef20a9651178ecab978ee54a8cb"
   integrity sha1-6ocySkIwvvIKllEXjsq5eO5UqMs=
+
+jmlink-react-native@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/jmlink-react-native/-/jmlink-react-native-1.0.0.tgz#b42c5e208827b9c7d19da58d02699bf3a63c6de2"
+  integrity sha512-rTEUwkJNAyf9XIzr9QIXicPXZhOedZ1DkNp6XnBEhcIoidtATEV6O247bAu+xwTXqeOJlk0ZHqwI/3tpMKkMZA==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
